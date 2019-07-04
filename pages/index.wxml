@@ -1,0 +1,19 @@
+<view class='pa-logo'>
+  <image class='logo' src='cloud://zhku-xno6r.7a68-zhku-xno6r/zhku/zhkulogo2.jpg'></image>
+</view>
+
+
+<view class='option'>
+  <navigator url='map/details'>
+    <view class='text-icon'>学校介绍</view>
+  </navigator>
+  <view class='text-icon' bindtap='navig' data-id='1'>海珠校区</view>
+  <view class='text-icon' bindtap='navig' data-id='0'>白云校区</view>
+  <!-- <view class='text-icon' bindtap='navig' data-id='0'>校园咨询</view> -->
+</view>
+<view class="copyright">
+  <navigator url="web-views/web-views?url=www.zhku.edu.cn">
+    <text>© ZHKU</text>
+  </navigator>
+</view>
+<!-- <image class='iiii' src='cloud://zhku-xno6r.7a68-zhku-xno6r/zhku/xiaoxun.jpg'></image> -->
